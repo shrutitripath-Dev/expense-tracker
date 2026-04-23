@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #121212;
+  color: white;
+}
+
+/* MAIN LAYOUT */
+.container {
+  display: flex;
+  flex-direction: row-reverse; /* THIS swaps left & right */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+/* RIGHT SIDE */
+.right {
+  width: 40%;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #00c853;
+  color: white;
+  cursor: pointer;
+}
+
+/* SUMMARY */
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.summary div {
+  width: 45%;
+  background: #333;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* BOTTOM SECTION */
+.bottom {
+  margin: 20px;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+.bottom select {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+/* LIST */
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+#list li {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.plus {
+  color: #00e676;
+}
+
+.minus {
+  color: #ff5252;
+}
+.left {
+  width: 55%;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+
+  height: 400px; /* 🔥 FIX HEIGHT */
+}
+
+#chart {
+  width: 100% !important;
+  height: 100% !important;
+}
